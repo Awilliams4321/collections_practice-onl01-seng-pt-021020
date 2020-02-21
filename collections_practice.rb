@@ -35,5 +35,9 @@ def find_a(array)
   end
 end
 
+def collections_practice(array)
+  array.sum 
+end
+
   
   
