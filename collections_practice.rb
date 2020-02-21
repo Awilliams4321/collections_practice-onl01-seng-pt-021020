@@ -3,5 +3,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_char_count(array)
-  array.charcount  
-end
+  array.sort do |left, right|
+    left <=> right
+  end
+  
