@@ -36,8 +36,11 @@ def find_a(array)
 end
 
 def collections_practice(array)
-  array.sum 
+  array.inject do |sum,x|
+     sum + x
+     end
 end
+
 
   
   
