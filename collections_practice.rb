@@ -13,3 +13,7 @@ def sort_array_desc(array)
     right <=> left
   end
 end
+
+def swap_elements(array)
+  array.sort do |b, c|
+    
